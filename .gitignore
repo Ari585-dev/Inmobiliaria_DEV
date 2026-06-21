@@ -1,3 +1,32 @@
-node_modules/
+# Environment
 .env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Lock files (keep pnpm-lock.yaml, ignore others)
 package-lock.json
+yarn.lock
+client/package-lock.json
+
+# Build output
+client/dist/
+client/.vite/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.user
